@@ -65,7 +65,7 @@ _Welcome to "Hello GitHub Actions"! :wave:_
 
 To get you started, we used actions to go ahead and made a branch and pull request for you.
 
-### :keyboard: Activity: Create a workflow file
+### :keyboard: Activity: Create a workflow file 📄
 
 1. Open a new browser tab, and navigate to this same repository. Then, work on the steps in your second tab while you read the instructions in this tab.
 1. Navigate to the **Code** tab.
@@ -94,7 +94,7 @@ To get you started, we used actions to go ahead and made a branch and pull reque
 <details id=2>
 <summary><h2>Step 2: Add a job to your workflow file</h2></summary>
 
-_Nice work! :tada: You added a workflow file!_
+_Nice work! :tada: You added a workflow file!_ 🎉
 
 Here's what it means:
 
@@ -107,7 +107,7 @@ Next, we need to specify jobs to run.
 
 In this step of our exercise, we will add a "build" job. We will specify `ubuntu-latest` as the fastest and cheapest job runner available. If you want to read more about why we'll use that runner, see the code explanation for the line `runs-on: ubuntu-latest` in the "[Understanding the workflow file](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions#understanding-the-workflow-file)" article.
 
-### :keyboard: Activity: Add a job to your workflow file
+### :keyboard: Activity: Add a job to your workflow file 👷🏽‍♀️
 
 1. Open your `welcome.yml` file. 
 2. Update the contents of the file to:
@@ -144,7 +144,7 @@ Workflows have jobs, and jobs have steps. So now we'll add steps to your workflo
 
 In our action, we post a comment on the pull request using a [bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29) script and [GitHub CLI](https://cli.github.com/).
 
-### :keyboard: Activity: Add Actions steps to your workflow file
+### :keyboard: Activity: Add Actions steps to your workflow file 🛠
 
 1. Open your `welcome.yml` file.
 2. Update the contents of the file to:
@@ -182,7 +182,7 @@ _You're now able to write and run an Actions workflow! :sparkles:_
 
 Merge your pull request so the action will be a part of the `main` branch.
 
-### :keyboard: Activity: Merge your workflow file
+### :keyboard: Activity: Merge your workflow file ✅
 
 1. In your repo, click on the **Pull requests** tab.
 2. Click on the **Post welcome comment workflow** pull request.
@@ -209,7 +209,7 @@ Your new action will run any time a new commit is created or pushed to the remot
 
 ![View an action's log](https://user-images.githubusercontent.com/16547949/62388049-4e64e600-b52a-11e9-8bf5-db0c5452360f.png)
 
-### :keyboard: Activity: Trigger the workflow
+### :keyboard: Activity: Trigger the workflow 🔃
 
 1. Make a new branch named `test-workflow`.
 1. Commit any change to your branch, such as adding an emoji to your README.md file.
